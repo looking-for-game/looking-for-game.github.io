@@ -8,10 +8,11 @@ Presentation: 5 minutes
   * Chris:
   * Victor:
   * Tallas:
-
 * How will the team coordinate with each other? When is everyone available to meet? How will you communicate outside of meetings?
 * Present your home page and screenshots. Discuss what you want to develop for your application.
 * Present your GitHub project page for the Final Project Milestone M1.
+
+
 
 * What do you want to get out of this final project? Are there any skills you want to practice or improve at through this project experience?
   * Practice working with a team on a software development project
