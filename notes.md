@@ -3,9 +3,8 @@ E50: Team Bonding
 Presentation: 5 minutes
 
 * Introduce your team and discuss the results of the bonding exercise: for each team member, what are their goals for the project, what skills to they want to develop, what skills do they bring to the team.
-    * Team Members: Blake Wallick, Christopher Lee, Victor Pawid, Tallas Goo
-    * Blake:
-        *- 
+  * Team Members: Blake Wallick, Christopher Lee, Victor Pawid, Tallas Goo
+  * Blake:
   * Chris:
   * Victor:
   * Tallas:
