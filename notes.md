@@ -8,26 +8,26 @@ Presentation: 5 minutes
 * Present your GitHub project page for the Final Project Milestone M1.
 
 * What do you want to get out of this final project? Are there any skills you want to practice or improve at through this project experience?
-- Practice working with a team on a software development project
-- Experience creating an original, fully-functional project
-- Collaboration using GitHub
+  * Practice working with a team on a software development project
+  * Experience creating an original, fully-functional project
+  * Collaboration using GitHub
 
 * What is your background? What skills can you bring to the final project?
-- Diverse experience with various video games and platforms
-- Human psychology
-- Logistics and organizational strengths
-- Communication and public presentation skills
-- Experience in graphics and web design
+  * Diverse experience with various video games and platforms
+  * Human psychology
+  * Logistics and organizational strengths
+  * Communication and public presentation skills
+  * Experience in graphics and web design
 
 * What are your time constraints? When are you available to meet? When do you plan to be able to work on the project?
-- For in-person meetings, after ICS 314 class Tuesdays and Thursdays work (Victor after 11:45am)
-- Saturdays also available for face-to-face meetings
+  * For in-person meetings, after ICS 314 class Tuesdays and Thursdays work (Victor after 11:45am)
+  * Saturdays also available for face-to-face meetings
 
 * How do you prefer to be contacted? Email? Text? Slack? When do you want to be contacted? When do you not want to be contacted?
-- Group text preferred
-- Respond when time permits
+  * Group text preferred
+  * Respond when time permits
 
 * Select one of the pre-defined projects posted in the final project module. If you choose that, you must come up with a new name for your project.
-- Selected pre-defined project: “Game Buddies”
-- Chosen project name: “Looking For Game” or “LFG” for short
-- Our mentality is to create an application for gamers that we ourselves would want to use — all in the name of fun.
+  * Selected pre-defined project: “Game Buddies”
+  * Chosen project name: “Looking For Game” or “LFG” for short
+  * Our mentality is to create an application for gamers that we ourselves would want to use — all in the name of fun.
