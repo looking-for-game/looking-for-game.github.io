@@ -3,6 +3,13 @@ E50: Team Bonding
 Presentation: 5 minutes
 
 * Introduce your team and discuss the results of the bonding exercise: for each team member, what are their goals for the project, what skills to they want to develop, what skills do they bring to the team.
+  * Team Members: Blake Wallick, Christopher Lee, Victor Pawid, Tallas Goo
+  * Blake:
+    * 
+  * Chris:
+  * Victor:
+  * Tallas:
+
 * How will the team coordinate with each other? When is everyone available to meet? How will you communicate outside of meetings?
 * Present your home page and screenshots. Discuss what you want to develop for your application.
 * Present your GitHub project page for the Final Project Milestone M1.
