@@ -139,7 +139,7 @@ The Looking For Game data model is implemented by two Javascript classes: [Profi
 
 Any part of the system that manipulates the BowFolios data model imports the Profiles or Interests variable, and invokes methods of that class to get or set data.
 
-There are many common operations on MongoDB collections. To simplify the implementation, the ProfileCollection and InterestCollection classes inherit from the [BaseCollection](https://github.com/bowfolios/bowfolios/blob/master/blob/master/app/imports/api/base/BaseCollection.js) class.
+There are many common operations on MongoDB collections. To simplify the implementation, the ProfileCollection and InterestCollection classes inherit from the [BaseCollection](https://github.com/looking-for-game/looking-for-game/blob/master/app/imports/api/base/BaseCollection.js) class.
 
 The [BaseUtilities](https://github.com/looking-for-game/looking-for-game/blob/master/app/imports/api/base/BaseCollection.js) file contains functions that operate across both classes. 
 
