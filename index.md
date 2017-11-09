@@ -189,9 +189,9 @@ The application implements template-based authorization using an If_Authorized t
 
 The [config](https://github.com/looking-for-game/looking-for-game/tree/master/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/looking-for-game/looking-for-game/tree/master/config/settings.development.json).
 
-The [.gitignore](https://github.com/looking-for-game/looking-for-game/.gitignore) file prevents a file named settings.production.json from being committed to the repository. So, if you are deploying the application, you can put settings in a file named settings.production.json and it will not be committed.
+The [.gitignore](https://github.com/looking-for-game/looking-for-game/blob/master/.gitignore) file prevents a file named settings.production.json from being committed to the repository. So, if you are deploying the application, you can put settings in a file named settings.production.json and it will not be committed.
 
-BowFolios checks on startup to see if it has an empty database in [initialize-database.js](https://github.com/looking-for-game/looking-for-game/blob/master/app/imports/startup/server/initialize-database.js), and if so, loads the file specified in the configuration file, such as [settings.development.json](https://github.com/looking-for-game/looking-for-game/config/settings.development.json).  For development purposes, a sample initialization for this database is in [initial-collection-data.json](https://github.com/looking-for-game/looking-for-game/blob/master/app/private/database/initial-collection-data.json).
+BowFolios checks on startup to see if it has an empty database in [initialize-database.js](https://github.com/looking-for-game/looking-for-game/blob/master/app/imports/startup/server/initialize-database.js), and if so, loads the file specified in the configuration file, such as [settings.development.json](https://github.com/looking-for-game/looking-for-game/tree/master/config/settings.development.json).  For development purposes, a sample initialization for this database is in [initial-collection-data.json](https://github.com/looking-for-game/looking-for-game/blob/master/app/private/database/initial-collection-data.json).
 
 ## Quality Assurance
 
