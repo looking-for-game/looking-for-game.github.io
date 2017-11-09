@@ -187,7 +187,7 @@ The application implements template-based authorization using an If_Authorized t
 
 ## Configuration
 
-The [config](https://github.com/looking-for-game/looking-for-game/tree/master/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/looking-for-game/looking-for-game/config/settings.development.json).
+The [config](https://github.com/looking-for-game/looking-for-game/tree/master/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/looking-for-game/looking-for-game/tree/master/config/settings.development.json).
 
 The [.gitignore](https://github.com/looking-for-game/looking-for-game/.gitignore) file prevents a file named settings.production.json from being committed to the repository. So, if you are deploying the application, you can put settings in a file named settings.production.json and it will not be committed.
 
