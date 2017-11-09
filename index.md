@@ -1,6 +1,7 @@
 # Table of contents
 
 * [About Looking for Game](#about-looking-for-game)
+* [Installation](#installation)
 
 
 # About Looking For Game
@@ -16,4 +17,26 @@ Anyone with a UH account can login to Looking For Game by clicking on the login 
 After creating a profile, you will be listed on the public directory page:
 
 ![](images/mock_up2.jpg)
+
+
+# Installation
+
+First, [install Meteor](https://www.meteor.com/install).
+
+Second, [download a copy of Looking For Group](https://github.com/looking-for-game/looking-for-game/archive/master.zip), or clone it using git.
+  
+Third, cd into the app/ directory and install libraries with:
+
+```
+$ meteor npm install
+```
+
+Fourth, run the system with:
+
+```
+$ meteor npm run start
+```
+
+If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000). If you have an account on the UH test CAS server, you can login. 
+
 
