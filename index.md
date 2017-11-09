@@ -47,7 +47,6 @@ BowFolios also provides a filter page, available to those who can login to the s
 
 ![](images/filter.png)
 
-<!--
 # Installation
 
 First, [install Meteor](https://www.meteor.com/install).
@@ -404,5 +403,3 @@ BowFolios is intended as a model of how an ICS 314 project could be organized an
 * [BowFolios: Initialization](https://www.youtube.com/watch?v=P3Kigb1gtVo)
 * [BowFolios: Unit Testing](https://www.youtube.com/watch?v=EexZfw1yMJs)
 * [BowFolios: Design Patterns](https://www.youtube.com/watch?v=yP-t44HBCPQ). Maybe watch [this](https://www.youtube.com/watch?v=Z2yjimK_MJU) first.
-
--->
