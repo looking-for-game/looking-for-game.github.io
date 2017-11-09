@@ -187,17 +187,17 @@ The application implements template-based authorization using an If_Authorized t
 
 ## Configuration
 
-The [config](https://github.com/bowfolios/bowfolios/tree/master/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/bowfolios/bowfolios/blob/master/config/settings.development.json).
+The [config](https://github.com/looking-for-game/looking-for-game/tree/master/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/looking-for-game/looking-for-game/config/settings.development.json).
 
-The [.gitignore](https://github.com/bowfolios/bowfolios/blob/master/.gitignore) file prevents a file named settings.production.json from being committed to the repository. So, if you are deploying the application, you can put settings in a file named settings.production.json and it will not be committed.
+The [.gitignore](https://github.com/looking-for-game/looking-for-game/.gitignore) file prevents a file named settings.production.json from being committed to the repository. So, if you are deploying the application, you can put settings in a file named settings.production.json and it will not be committed.
 
-BowFolios checks on startup to see if it has an empty database in [initialize-database.js](https://github.com/bowfolios/bowfolios/blob/master/app/imports/startup/server/initialize-database.js), and if so, loads the file specified in the configuration file, such as [settings.development.json](https://github.com/bowfolios/bowfolios/blob/master/config/settings.development.json).  For development purposes, a sample initialization for this database is in [initial-collection-data.json](https://github.com/bowfolios/bowfolios/blob/master/app/private/database/initial-collection-data.json).
+BowFolios checks on startup to see if it has an empty database in [initialize-database.js](https://github.com/looking-for-game/looking-for-game/app/imports/startup/server/initialize-database.js), and if so, loads the file specified in the configuration file, such as [settings.development.json](https://github.com/looking-for-game/looking-for-game/config/settings.development.json).  For development purposes, a sample initialization for this database is in [initial-collection-data.json](https://github.com/looking-for-game/looking-for-game/app/private/database/initial-collection-data.json).
 
 ## Quality Assurance
 
 ### ESLint
 
-BowFolios includes a [.eslintrc](https://github.com/bowfolios/bowfolios/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+BowFolios includes a [.eslintrc](https://github.com/looking-for-game/looking-for-game/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
 
 ```
 meteor npm run lint
@@ -218,46 +218,42 @@ meteor npm run test
 This outputs the results to the console. Here is an example of a successful run, with timestamps removed:
 
 ```
-[~/github/bowfolios/bowfolios/app]-> meteor npm run test
+dhcp-168-105-253-142:app Crleekwc$ meteor npm run test
 
-> bowfolios@ test /Users/philipjohnson/github/bowfolios/bowfolios/app
-> TEST_WATCH=1 meteor test --driver-package meteortesting:mocha
+> looking-for-game@ test /Users/Crleekwc/Documents/GitHub/looking-for-game/app
+> cross-env TEST_WATCH=1 meteor test --driver-package meteortesting:mocha
 
 [[[[[ Tests ]]]]]                             
 
 => Started proxy.                             
-=> Started MongoDB.  
-                         
-(STDERR) Note: you are using a pure-JavaScript implementation of bcrypt.
-(STDERR) While this implementation will work correctly, it is known to be
-(STDERR) approximately three times slower than the native implementation.
-(STDERR) In order to use the native implementation instead, run
-(STDERR) 
-(STDERR)   meteor npm install --save bcrypt
-(STDERR) 
-(STDERR) in the root directory of your application.
-
- --------------------------------
- ----- RUNNING SERVER TESTS -----
- --------------------------------
-   
+=> Meteor 1.6 is available. Update this project with 'meteor update'.
+=> Started MongoDB.                           
+I20171109-11:13:56.116(-10)?                  
+I20171109-11:13:56.155(-10)? --------------------------------
+I20171109-11:13:56.156(-10)? ----- RUNNING SERVER TESTS -----
+I20171109-11:13:56.157(-10)? --------------------------------
+I20171109-11:13:56.157(-10)? 
+I20171109-11:13:56.158(-10)? 
+I20171109-11:13:56.159(-10)? 
+I20171109-11:13:56.159(-10)?   InterestCollection
 => Started your app.
 
 => App running at: http://localhost:3000/
-    InterestCollection
-    ✓ #define, #isDefined, #removeIt, #dumpOne, #restoreOne (69ms)
-    ✓ #findID, #findIDs  
-    ProfileCollection
-    ✓ #define, #isDefined, #removeIt, #dumpOne, #restoreOne (66ms)
+    ✓ #define, #isDefined, #removeIt, #dumpOne, #restoreOne (67ms)
+    ✓ #findID, #findIDs-10)? 
+I20171109-11:13:56.162(-10)? 
+I20171109-11:13:56.163(-10)?   ProfileCollection
+    ✓ #define, #isDefined, #removeIt, #dumpOne, #restoreOne (61ms)
     ✓ #define (illegal interest)
     ✓ #define (duplicate interests)
-
-   5 passing (178ms)
-
-Load the app in a browser to run client tests, or set the TEST_BROWSER_DRIVER environment variable. See https://github.com/DispatchMe/meteor-mocha/blob/master/README.md#run-app-tests
+I20171109-11:13:56.165(-10)? 
+I20171109-11:13:56.166(-10)? 
+I20171109-11:13:56.166(-10)?   5 passing (175ms)
+I20171109-11:13:56.167(-10)? 
+I20171109-11:13:56.168(-10)? Load the app in a browser to run client tests, or set the TEST_BROWSER_DRIVER environment variable. See https://github.com/meteortesting/meteor-mocha/blob/master/README.md#run-app-tests
 ```
 
 
 ### JSDoc
 
-BowFolios supports documentation generation with [JSDoc](http://usejsdoc.org/). The package.json file defines a script called jsdoc that runs JSDoc over the source files and outputs html to the ../../bowfolio.github.io/jsdoc directory.  When committed, the index.html file providing an overview of all the documentation generate at that point in time is available at [http://bowfolios.github.io/jsdocs](https://bowfolios.github.io/jsdocs/). 
+BowFolios supports documentation generation with [JSDoc](http://usejsdoc.org/). The package.json file defines a script called jsdoc that runs JSDoc over the source files and outputs html to the ../../looking-for-game.github.io/jsdoc directory.  When committed, the index.html file providing an overview of all the documentation generate at that point in time is available at [http://looking-for-game.github.io/jsdocs](https://bowfolios.github.io/jsdocs/). 
