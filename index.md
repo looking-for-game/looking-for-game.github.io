@@ -268,26 +268,6 @@ The following sections document the development history of BowFolios.
 
 ## Milestone 1: Mockup development
 
-This milestone started on December 6, 2016 and ended on January 31, 2017.
+This milestone started on November 9, 2017 to present.
 
 The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system. To simplify things, the mockup was developed as a Meteor app. This meant that each page was a template and that FlowRouter was used to implement routing to the pages. 
-
-Mockups for the following four pages were implemented during M1:
-
-<img width="200px" src="images/landing.png"/>
-<img width="200px" src="images/profile.png"/>
-<img width="200px" src="images/directory.png"/>
-<img width="200px" src="images/filter.png"/>
-
-Milestone 1 was implemented as [BowFolio GitHub Milestone M1](https://github.com/bowfolios/bowfolios/milestone/1)::
-
-![](images/m1-milestone.png)
-
-
-Milestone 1 consisted of five issues, and progress was managed via the [BowFolio GitHub Project M1](https://github.com/bowfolios/bowfolios/projects/1):
-
-![](images/m1-project.png)
-
-Each issue was implemented in its own branch, and merged into master when completed:
-
-![](images/m1-branch-graph.png)
