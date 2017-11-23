@@ -276,7 +276,7 @@ Here is a link to our current deployment: [http://lookingforgame.meteorapp.com](
 
 Issues completed for Milestone 1 viewable [here](https://github.com/looking-for-game/looking-for-game/projects/1).
 
-Milestone 2 goals viewable [here](https://github.com/looking-for-game/looking-for-game/projects/1).
+Milestone 2 goals viewable [here](https://github.com/looking-for-game/looking-for-game/projects/2).
 
 Below are screenshots of our current progress.
 
