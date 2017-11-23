@@ -274,9 +274,9 @@ The goal of Milestone 1 was to create a set of HTML pages providing a mockup of 
 
 Here is a link to our current deployment: [http://lookingforgame.meteorapp.com](http://lookingforgame.meteorapp.com)
 
-Issues completed for Milestone 1 viewable here: [https://github.com/looking-for-game/looking-for-game/projects/1](https://github.com/looking-for-game/looking-for-game/projects/1)
+Issues completed for Milestone 1 viewable [https://github.com/looking-for-game/looking-for-game/projects/1](here).
 
-Milestone 2 goals viewable here: [https://github.com/looking-for-game/looking-for-game/projects/2](https://github.com/looking-for-game/looking-for-game/projects/2)
+Milestone 2 goals viewable [https://github.com/looking-for-game/looking-for-game/projects/2](here).
 
 Below are screenshots of our current progress.
 
