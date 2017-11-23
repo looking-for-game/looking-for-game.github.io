@@ -10,7 +10,7 @@
 
 Looking For Game is a Meteor application providing game profiles for the University of Hawaii community. When you come to the site, you are greeted by the following landing page:
 
-![](images/mock_up.jpg)
+![](images/mock_up.png)
 
 Anyone with a UH account can login to Looking For Game by clicking on the login button. The UH CAS authentication screen then appears and requests your UH account and password. Once authenticated, you can create a profile that provides a biographical statement and list of interests, plus links to selected social media sites (GitHub, FaceBook, Instagram):
 
@@ -270,4 +270,10 @@ The following sections document the development history of BowFolios.
 
 This milestone started on November 9, 2017 to present.
 
-The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system. To simplify things, the mockup was developed as a Meteor app. This meant that each page was a template and that FlowRouter was used to implement routing to the pages. 
+The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system. To simplify things, the mockup was developed as a Meteor app. This meant that each page was a template and that FlowRouter was used to implement routing to the pages.
+
+![](images/mock_up.png)
+
+![](images/mock_up2.png)
+
+![](images/mock_up3.png)
