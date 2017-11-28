@@ -168,7 +168,7 @@ For authentication, the application uses the University of Hawaii CAS test serve
 
 When the application is run, the CAS configuration information must be present in a configuration file such as  [config/settings.development.json](https://github.com/ics-software-engineering/meteor-application-template/blob/master/config/settings.development.json). 
 
-Anyone with a UH account can login and use BowFolio to create a portfolio.  A profile document is created for them if none already exists for that username.
+Anyone with a UH account can login and use Looking For Game to create a portfolio.  A profile document is created for them if none already exists for that username.
 
 ## Authorization
 
