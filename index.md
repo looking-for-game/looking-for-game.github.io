@@ -65,10 +65,10 @@ A select handful of university students have provided some unbiased opinons abou
 ""
 P.K.
 
-
+""
 H.S.
 
-
+"I wish there was a view of the games themselves, with the subscribed players. Other than that, it looks pretty good."
 D.D.
 
 "It looks like something I would use. Especially if I just arrived on campus."
