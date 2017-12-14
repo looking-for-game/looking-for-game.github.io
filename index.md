@@ -23,29 +23,29 @@ Looking For Game (LFG) is a Meteor web application designed to help college stud
 
 The running web app is accessible at: [http://lookingforgame.meteorapp.com](http://lookingforgame.meteorapp.com)
 
-When you first arrive, you will be presented with the below landing page. Click on the "Login" button in the top-right corner and enter your UH credentials.
-![](images/mock_up.png)
 <p style="text-align: center"><i>Landing Page</i></p>
+![](images/mock_up.png)
+When you first arrive, you will be presented with the above landing page. Click on the "Login" button in the top-right corner and enter your UH credentials.
 
-If you do not have an existing LFG account, you will be redirected to the below profile creation page. The only required field is your handle, though you can also add your name, profile picture, favorite game(s), gaming network usernames, and a brief bio about yourself.
-![](images/edit_profile.png)
 <p style="text-align: center"><i>Edit Profile Page</i></p>
+![](images/edit_profile.png)
+If you do not have an existing LFG account, you will be redirected to the above profile creation page. The only required field is your handle, though you can also add your name, profile picture, favorite game(s), gaming network usernames, and a brief bio about yourself.
 
-When you click "Submit", your new profile will be saved to the LFG database and you will be redirected to your profile page, where you can see the information that you just inputted.
-![](images/merged_pub_profile.png)
 <p style="text-align: center"><i>Profile Page</i></p>
+![](images/merged_pub_profile.png)
+When you click "Submit", your new profile will be saved to the LFG database and you will be redirected to your profile page, where you can see the information that you just inputted.
 
 If at anytime you want to change your profile page information, just click the "Edit Profile" button located to the in the top-right of the menu bar.
 
-To see a quick overview of players currently online and the games they play, click on "LFG" logo in the top-left of the menu bar.
-![](images/merged_home_page.png)
 <p style="text-align: center"><i>Home Page</i></p>
+![](images/merged_home_page.png)
+To see a quick overview of players currently online and the games they play, click on "LFG" logo in the top-left of the menu bar.
 
 If you want to learn more about a player, click on their avatar image to view their profile page.
 
-You can also narrow your search by game using the "Search" page. Select a game from the dropdown menu and click "Search" to see a list of LFG players who play that specific game. Click on a player's card to view their profile page.
-![](images/merged_search_page.png)
 <p style="text-align: center"><i>Search Page</i></p>
+![](images/merged_search_page.png)
+You can also narrow your search by game using the "Search" page. Select a game from the dropdown menu and click "Search" to see a list of LFG players who play that specific game. Click on a player's card to view their profile page.
 
 Click the "Logout" button at anytime and you will be returned to the landing page.
 
@@ -69,17 +69,17 @@ A select handful of university students have provided some helpful opinions abou
 
 ## Installation
 
-First, [install Meteor](https://www.meteor.com/install).
+1. [Install Meteor](https://www.meteor.com/install).
 
-Second, [download a copy of Looking For Group](https://github.com/looking-for-game/looking-for-game/archive/master.zip), or clone it using git.
+2. [Download a copy of Looking For Group](https://github.com/looking-for-game/looking-for-game/archive/master.zip), or clone it using git.
   
-Third, cd into the app/ directory and install libraries with:
+3. cd into the app/ directory and install libraries with:
 
 ```
 $ meteor npm install
 ```
 
-Fourth, run the system with:
+4. Run the system with:
 
 ```
 $ meteor npm run start
@@ -361,7 +361,6 @@ Prior to the construction of the web app prototype, this presentation goes over 
 
 
 # Coming Soon
-
 * Live in-game LFG player population dynamic graphs
 * Profile direct updating from gaming networks (Battle.net, PlayStation Network, Steam, Xbox Live)
 * Event scheduling with LFG players
