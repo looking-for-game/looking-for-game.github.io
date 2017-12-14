@@ -7,6 +7,9 @@
   * [Concept Presentation](#milestone-1-mockup-development)
 * [Reviews and Feedback](#reviews-and-feedback)
 * [Developer Guide](#developer-guide)
+  * [Installation](#installation)
+  * [Application Design](#application-design)
+  * [Quality Assurance](#quality-assurance)
 * [Application design](#application-design)
 
 
@@ -69,6 +72,7 @@ Search Page:
 
 Profile Page:
 ![](images/mock_up3.png)
+
 
 ## Concept Presentation
 
@@ -212,7 +216,6 @@ This system adopts the following naming conventions:
   * Templates representing pages are capitalized, with words separated by underscores. Example: Directory_Page. The files for this template are lower case, with hyphens rather than underscore. Example: directory-page.html, directory-page.js.
   * Routes to pages are named the same as their corresponding page. Example: Directory_Page.
 
-
 ### Data model
 
 The Looking For Game data model is implemented by two Javascript classes: [ProfileCollection](https://github.com/looking-for-game/looking-for-game/blob/master/app/imports/api/profile/ProfileCollection.js) and [InterestCollection](https://github.com/looking-for-game/looking-for-game/blob/master/app/imports/api/interest/InterestCollection.js). Both of these classes encapsulate a MongoDB collection with the same name and export a single variable (Profiles and Interests)that provides access to that collection. 
@@ -246,7 +249,6 @@ Looking For Game defines the following routes:
   * The `/<user>/profile` route goes to the profile page associated with `<user>`, which is the UH account name.
   * The `/<user>/filter` route goes to the filter page associated with `<user>`, which is the UH account name.
 
-
 ### Authentication
 
 For authentication, the application uses the University of Hawaii CAS test server, and follows the approach shown in [meteor-example-uh-cas](http://ics-software-engineering.github.io/meteor-example-uh-cas/).
@@ -272,6 +274,7 @@ The [config](https://github.com/looking-for-game/looking-for-game/tree/master/co
 The [.gitignore](https://github.com/looking-for-game/looking-for-game/blob/master/.gitignore) file prevents a file named settings.production.json from being committed to the repository. So, if you are deploying the application, you can put settings in a file named settings.production.json and it will not be committed.
 
 Looking For Game checks on startup to see if it has an empty database in [initialize-database.js](https://github.com/looking-for-game/looking-for-game/blob/master/app/imports/startup/server/initialize-database.js), and if so, loads the file specified in the configuration file, such as [settings.development.json](https://github.com/looking-for-game/looking-for-game/tree/master/config/settings.development.json).  For development purposes, a sample initialization for this database is in [initial-collection-data.json](https://github.com/looking-for-game/looking-for-game/blob/master/app/private/database/initial-collection-data.json).
+
 
 ## Quality Assurance
 
