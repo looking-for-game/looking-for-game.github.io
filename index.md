@@ -25,23 +25,26 @@ The running web app is accessible at: [http://lookingforgame.meteorapp.com](http
 
 When you first arrive, you will be presented with the below landing page. Click on the "Login" button in the top-right corner and enter your UH credentials.
 ![](images/mock_up.png)
-*Landing Page*
+<p align="center">*Landing Page*</p>
 
 If you do not have an existing LFG account, you will be redirected to this profile creation page. The only required field is your handle, though you can also add your name, profile picture, favorite game(s), gaming network usernames, and a brief bio about yourself.
 ![](images/edit_profile.png)
 *Edit Profile Page*
 
-When you click "Submit", your new profile will be saved to the LFG database and you will be redirected to the home page.
+When you click "Submit", your new profile will be saved to the LFG database and you will be redirected to your profile page, where you can see the information that you just inputted.
+![](images/merged_pub_profile.png)
+"Profile Page"
+
+If at anytime you want to change your profile page information, just click the "Edit Profile" button located to the in the top-right of the menu bar.
+
+
+
 ![](images/merged_home_page.png)
 *Home Page*
-
-
 
 ![](images/merged_search_page.png)
 *Search Page*
 
-![](images/merged_pub_profile.png)
-"Profile Page"
 
 
 
