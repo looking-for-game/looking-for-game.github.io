@@ -24,6 +24,20 @@ Here is a link to our current deployment: [http://lookingforgame.meteorapp.com](
 
 Milestone 2 goals viewable [here](https://github.com/looking-for-game/looking-for-game/projects/2).
 
+Landing Page:
+![](images/mock_up.png)
+
+Search Page:
+![](images/merged_search_page.png)
+
+Profile Page:
+![](images/merged_pub_profile.png)
+
+Home Page:
+![](images/merged_home_page.png)
+
+Home Page:
+![](images/edit_profile.png)
 
 
 ## Milestone 1: Mockup Development
