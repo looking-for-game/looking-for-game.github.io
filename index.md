@@ -1,84 +1,30 @@
 # Table of Contents
 
 * [About](#about)
-* [Development History](#development-history)
-  * [Milestone 2: Prime Features](#milestone-2-prime-features)
-  * [Milestone 1: Mockup Development](#milestone-1-mockup-development)
-  * [Concept Presentation](#milestone-1-mockup-development)
-* [Reviews and Feedback](#reviews-and-feedback)
+* [User Guide](#user-guide)
+* [Community Reviews](#community-reviews)
 * [Developer Guide](#developer-guide)
   * [Installation](#installation)
   * [Application Design](#application-design)
   * [Quality Assurance](#quality-assurance)
+* [Development History](#development-history)
+  * [Milestone 02: Core Functionality](#milestone-02-core-functionality)
+  * [Milestone 01: Mockup Development](#milestone-01-mockup-development)
+  * [Milestone 00: Concept Presentation](#milestone-00-concept-presentation)
+* [Coming Soon](#coming-soon)
 
 
 # About
 
-Looking For Game is a Meteor application providing game profiles for the University of Hawaii community. Anyone with a UH account can login to Looking For Game by clicking on the login button, where a UH CAS authentication screen appears and requests your UH account and password. Once authenticated, you can create a profile that provides a biographical statement and list of favorite games, plus links to selected game networking sites including Battle.net, Steam, and Xbox Live.
-
-After creating a new player profile, you will be redirected to the Home page where you can see current online players and which games they play.
+Looking For Game (LFG) is a Meteor web application designed to help college students (particularly incoming freshmen) create new social connections via their shared interests in gaming. With LFG, new students have another means by which to make new connections and improve their college experience.
 
 
-# Development History
+# User Guide
 
-The development process for Looking For Game conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f16/modules/project-management/) practices. In a nutshell, development consists of a sequence of Milestones. Milestones consist of issues corresponding to 2-3 day tasks. GitHub projects are used to manage the processing of tasks during a milestone.  
-
-The following sections document the development history of Looking For Game.
+Link to running web app: [http://lookingforgame.meteorapp.com](http://lookingforgame.meteorapp.com)
 
 
-Here is a link to our current deployment: [http://lookingforgame.meteorapp.com](http://lookingforgame.meteorapp.com)
-
-
-## Milestone 2: Prime Features
-
-Milestone 2 goals viewable [here](https://github.com/looking-for-game/looking-for-game/projects/2).
-
-Landing Page:
-![](images/mock_up.png)
-
-Search Page:
-![](images/merged_search_page.png)
-
-Profile Page:
-![](images/merged_pub_profile.png)
-
-Home Page:
-![](images/merged_home_page.png)
-
-Edit Profile:
-![](images/edit_profile.png)
-
-
-## Milestone 1: Mockup Development
-
-This milestone started on November 9, 2017 to present.
-
-The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system. To simplify things, the mockup was developed as a Meteor app. This meant that each page was a template and that FlowRouter was used to implement routing to the pages.
-
-Here is a link to our current deployment: [http://lookingforgame.meteorapp.com](http://lookingforgame.meteorapp.com)
-
-Issues completed for Milestone 1 viewable [here](https://github.com/looking-for-game/looking-for-game/projects/1).
-
-Below are screenshots of our progress through M1.
-
-Landing Page:
-![](images/mock_up.png)
-
-Search Page:
-![](images/mock_up2.png)
-
-Profile Page:
-![](images/mock_up3.png)
-
-
-## Concept Presentation
-
-Prior to the construction of the web app prototype, this presentation goes over the concept and target demographics of the program.
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSKi10yvED8cOa2-O6Lccu5sxOjQ91kx9DD-xnKXfSDpu8kDQufYiQTcURvDidz9Yx50HNEpwEdO46d/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-
-# Reviews and Feedback
+# Community Reviews
 
 A select handful of university students have provided some helpful opinions about LFG.
 
@@ -252,7 +198,7 @@ For authentication, the application uses the University of Hawaii CAS test serve
 
 When the application is run, the CAS configuration information must be present in a configuration file such as  [config/settings.development.json](https://github.com/ics-software-engineering/meteor-application-template/blob/master/config/settings.development.json). 
 
-Anyone with a UH account can login and use Looking For Game to create a portfolio.  A profile document is created for them if none already exists for that username.
+Anyone with a UH account can login and use Looking For Game to create a profile.  A profile document is created for them if none already exists for that username.
 
 ### Authorization
 
@@ -337,3 +283,66 @@ I20171109-11:13:56.168(-10)? Load the app in a browser to run client tests, or s
 ### JSDoc
 
 Looking For Game supports documentation generation with [JSDoc](http://usejsdoc.org/). The package.json file defines a script called jsdoc that runs JSDoc over the source files and outputs html to the ../../looking-for-game.github.io/jsdoc directory.  When committed, the index.html file providing an overview of all the documentation generate at that point in time is available at [http://looking-for-game.github.io/jsdocs](https://looking-for-game.github.io/jsdocs/). 
+
+
+# Development History
+
+The development process for Looking For Game conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f16/modules/project-management/) practices. In a nutshell, development consists of a sequence of Milestones. Milestones consist of issues corresponding to 2-3 day tasks. GitHub projects are used to manage the processing of tasks during a milestone.  
+
+The following sections document the development history of Looking For Game.
+
+
+## Milestone 02: Core Functionality
+
+This milestone ran from 22 November 2017 to 13 December 2017. Milestone 02 goals viewable [here](https://github.com/looking-for-game/looking-for-game/projects/2).
+
+Landing Page:
+![](images/mock_up.png)
+
+Search Page:
+![](images/merged_search_page.png)
+
+Profile Page:
+![](images/merged_pub_profile.png)
+
+Home Page:
+![](images/merged_home_page.png)
+
+Edit Profile:
+![](images/edit_profile.png)
+
+
+## Milestone 01: Mockup Development
+
+This milestone ran from 9 November 2017 to 22 November 2017.
+
+The goal of Milestone 01 was to create a set of HTML pages providing a mockup of the pages in the system. To simplify things, the mockup was developed as a Meteor app. This meant that each page was a template and that FlowRouter was used to implement routing to the pages.
+
+Issues completed for Milestone 01 viewable [here](https://github.com/looking-for-game/looking-for-game/projects/1).
+
+Below are screenshots of our progress through M1.
+
+Landing Page:
+![](images/mock_up.png)
+
+Search Page:
+![](images/mock_up2.png)
+
+Profile Page:
+![](images/mock_up3.png)
+
+
+## Milestone 00: Concept Presentation
+
+Prior to the construction of the web app prototype, this presentation goes over the concept and target demographics of the program.
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSKi10yvED8cOa2-O6Lccu5sxOjQ91kx9DD-xnKXfSDpu8kDQufYiQTcURvDidz9Yx50HNEpwEdO46d/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+# Coming Soon
+
+* Live in-game LFG player population dynamic graphs
+* Profile direct updating from gaming networks (Battle.net, PlayStation Network, Steam, Xbox Live)
+* Event scheduling with LFG players
+* Live heat maps of local gaming activity
+* Support for card and tabletop games
