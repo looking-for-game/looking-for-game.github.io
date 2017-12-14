@@ -10,7 +10,6 @@
   * [Installation](#installation)
   * [Application Design](#application-design)
   * [Quality Assurance](#quality-assurance)
-* [Application design](#application-design)
 
 
 # About Looking For Game
