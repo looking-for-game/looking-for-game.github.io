@@ -2,11 +2,11 @@
 
 
 * [Development history](#development-history)
-  * [Milestone 1: Mockup development](#milestone-1-mockup-development)
+  * [Milestone 2: Prime Features](#milestone-2-prime-features)
+  * [Milestone 1: Mockup Development](#milestone-1-mockup-development)
   * [Concept Presentation](#milestone-1-mockup-development)
-
-  
 * [About Looking for Game](#about-looking-for-game)
+* [Reviews and Feedback](#reviews-and-feedback)
 * [Installation](#installation)
 * [Application design](#application-design)
   
