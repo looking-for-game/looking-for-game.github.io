@@ -1,15 +1,24 @@
 # Table of contents
 
-
+* [About Looking for Game](#about-looking-for-game)
 * [Development history](#development-history)
   * [Milestone 2: Prime Features](#milestone-2-prime-features)
   * [Milestone 1: Mockup Development](#milestone-1-mockup-development)
   * [Concept Presentation](#milestone-1-mockup-development)
-* [About Looking for Game](#about-looking-for-game)
 * [Reviews and Feedback](#reviews-and-feedback)
 * [Installation](#installation)
 * [Application design](#application-design)
-  
+
+
+# About Looking For Game
+
+Looking For Game is a Meteor application providing game profiles for the University of Hawaii community. When you come to the site, you are greeted by the following landing page:
+
+Anyone with a UH account can login to Looking For Game by clicking on the login button. The UH CAS authentication screen then appears and requests your UH account and password. Once authenticated, you can create a profile that provides a biographical statement and list of interests, plus links to selected social media sites (GitHub, FaceBook, Instagram):
+
+After creating a profile, you will be listed on the public directory page.
+
+
 # Development History
 
 The development process for Looking For Game conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f16/modules/project-management/) practices. In a nutshell, development consists of a sequence of Milestones. Milestones consist of issues corresponding to 2-3 day tasks. GitHub projects are used to manage the processing of tasks during a milestone.  
@@ -61,19 +70,11 @@ Search Page:
 Profile Page:
 ![](images/mock_up3.png)
 
-  ## Concept Presentation
+## Concept Presentation
 
 Prior to the construction of the web app prototype, this presentation goes over the concept and target demographics of the program.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSKi10yvED8cOa2-O6Lccu5sxOjQ91kx9DD-xnKXfSDpu8kDQufYiQTcURvDidz9Yx50HNEpwEdO46d/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-# About Looking For Game
-
-Looking For Game is a Meteor application providing game profiles for the University of Hawaii community. When you come to the site, you are greeted by the following landing page:
-
-Anyone with a UH account can login to Looking For Game by clicking on the login button. The UH CAS authentication screen then appears and requests your UH account and password. Once authenticated, you can create a profile that provides a biographical statement and list of interests, plus links to selected social media sites (GitHub, FaceBook, Instagram):
-
-After creating a profile, you will be listed on the public directory page.
 
 
 # Reviews and Feedback
@@ -115,6 +116,7 @@ $ meteor npm run start
 ```
 
 If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000). If you have an account on the UH test CAS server, you can login. 
+
 
 # Application Design
 
