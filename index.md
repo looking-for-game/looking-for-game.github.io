@@ -16,7 +16,11 @@ The development process for Looking For Game conformed to [Issue Driven Project 
 
 The following sections document the development history of Looking For Game.
 
-## Milestone 1: Mockup development
+## Milestone 2: Prime Features
+
+
+
+## Milestone 1: Mockup Development
 
 This milestone started on November 9, 2017 to present.
 
@@ -52,6 +56,26 @@ Looking For Game is a Meteor application providing game profiles for the Univers
 Anyone with a UH account can login to Looking For Game by clicking on the login button. The UH CAS authentication screen then appears and requests your UH account and password. Once authenticated, you can create a profile that provides a biographical statement and list of interests, plus links to selected social media sites (GitHub, FaceBook, Instagram):
 
 After creating a profile, you will be listed on the public directory page.
+
+
+# Reviews and Feedback
+
+A select handful of university students have provided some unbiased opinons about LFG.
+
+""
+P.K.
+
+
+H.S.
+
+
+D.D.
+
+"It looks like something I would use. Especially if I just arrived on campus."
+J.O.
+
+""
+N.F.
 
 
 # Installation
