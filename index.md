@@ -1,10 +1,49 @@
 # Table of contents
 
+
+* [Development history](#development-history)
+  * [Milestone 1: Mockup development](#milestone-1-mockup-development)
+  * [Concept Presentation](#milestone-1-mockup-development)
+
+  
 * [About Looking for Game](#about-looking-for-game)
 * [Installation](#installation)
 * [Application design](#application-design)
-* [Development history](#development-history)
-  * [Milestone 1: Mockup development](#milestone-1-mockup-development)
+  
+# Development History
+
+The development process for Looking For Game conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f16/modules/project-management/) practices. In a nutshell, development consists of a sequence of Milestones. Milestones consist of issues corresponding to 2-3 day tasks. GitHub projects are used to manage the processing of tasks during a milestone.  
+
+The following sections document the development history of Looking For Game.
+
+## Milestone 1: Mockup development
+
+This milestone started on November 9, 2017 to present.
+
+The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system. To simplify things, the mockup was developed as a Meteor app. This meant that each page was a template and that FlowRouter was used to implement routing to the pages.
+
+Here is a link to our current deployment: [http://lookingforgame.meteorapp.com](http://lookingforgame.meteorapp.com)
+
+Issues completed for Milestone 1 viewable [here](https://github.com/looking-for-game/looking-for-game/projects/1).
+
+Milestone 2 goals viewable [here](https://github.com/looking-for-game/looking-for-game/projects/2).
+
+Below are screenshots of our current progress.
+
+Landing Page:
+![](images/mock_up.png)
+
+Search Page:
+![](images/mock_up2.png)
+
+Profile Page:
+![](images/mock_up3.png)
+
+  ## Concept Presentation
+
+Prior to the construction of the webapp prototype, this presentation goes over the concept and targe demographics of the program.
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSKi10yvED8cOa2-O6Lccu5sxOjQ91kx9DD-xnKXfSDpu8kDQufYiQTcURvDidz9Yx50HNEpwEdO46d/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 # About Looking For Game
 
@@ -252,39 +291,3 @@ I20171109-11:13:56.168(-10)? Load the app in a browser to run client tests, or s
 ### JSDoc
 
 Looking For Game supports documentation generation with [JSDoc](http://usejsdoc.org/). The package.json file defines a script called jsdoc that runs JSDoc over the source files and outputs html to the ../../looking-for-game.github.io/jsdoc directory.  When committed, the index.html file providing an overview of all the documentation generate at that point in time is available at [http://looking-for-game.github.io/jsdocs](https://looking-for-game.github.io/jsdocs/). 
-
-
-# Development History
-
-The development process for Looking For Game conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f16/modules/project-management/) practices. In a nutshell, development consists of a sequence of Milestones. Milestones consist of issues corresponding to 2-3 day tasks. GitHub projects are used to manage the processing of tasks during a milestone.  
-
-The following sections document the development history of Looking For Game.
-
-## Concept Presentation
-
-Prior to the construction of the webapp prototype, this presentation goes over the concept and targe demographics of the program.
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSKi10yvED8cOa2-O6Lccu5sxOjQ91kx9DD-xnKXfSDpu8kDQufYiQTcURvDidz9Yx50HNEpwEdO46d/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-## Milestone 1: Mockup development
-
-This milestone started on November 9, 2017 to present.
-
-The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system. To simplify things, the mockup was developed as a Meteor app. This meant that each page was a template and that FlowRouter was used to implement routing to the pages.
-
-Here is a link to our current deployment: [http://lookingforgame.meteorapp.com](http://lookingforgame.meteorapp.com)
-
-Issues completed for Milestone 1 viewable [here](https://github.com/looking-for-game/looking-for-game/projects/1).
-
-Milestone 2 goals viewable [here](https://github.com/looking-for-game/looking-for-game/projects/2).
-
-Below are screenshots of our current progress.
-
-Landing Page:
-![](images/mock_up.png)
-
-Search Page:
-![](images/mock_up2.png)
-
-Profile Page:
-![](images/mock_up3.png)
