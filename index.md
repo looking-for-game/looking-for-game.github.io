@@ -36,7 +36,7 @@ Profile Page:
 Home Page:
 ![](images/merged_home_page.png)
 
-Home Page:
+Edit Profile:
 ![](images/edit_profile.png)
 
 
