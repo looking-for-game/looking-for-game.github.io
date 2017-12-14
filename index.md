@@ -16,7 +16,9 @@
 
 # About
 
-Looking For Game (LFG) is a Meteor web application designed to help college students (particularly incoming freshmen) create new social connections via their shared interests in gaming. With LFG, new students have another means by which to make new connections and improve their college experience.
+Looking For Game (LFG) is a Meteor web application designed to help college students (particularly incoming freshmen) create new social connections via their shared interests in gaming. With LFG, new students have another means by which to make new connections and improve their overall college experience.
+
+At the moment LFG only supports University of Hawaii (UH) system users, though the intent is for this functionality to eventually spread to other campuses and beyond.
 
 
 # User Guide
@@ -33,19 +35,20 @@ If you do not have an existing LFG account, you will be redirected to the above 
 
 <p style="text-align: center"><i>Profile Page</i></p>
 ![](images/merged_pub_profile.png)
-When you click "Submit", your new profile will be saved to the LFG database and you will be redirected to your profile page, where you can see the information that you just inputted.
+When you click "Submit", your new profile will be saved to the LFG database and you will be redirected to your profile page, where you can see the information that you just entered.
 
-If at anytime you want to change your profile page information, just click the "Edit Profile" button located to the in the top-right of the menu bar.
+
+If at anytime you want to change your profile page information, just click the "Edit Profile" button located in the top-right of the menu bar.
 
 <p style="text-align: center"><i>Home Page</i></p>
 ![](images/merged_home_page.png)
-To see a quick overview of players currently online and the games they play, click on "LFG" logo in the top-left of the menu bar.
+To see a quick overview of players currently online and the games they play, click on "LFG" logo in the top-left of the menu bar to see the home page. This page presents a condensed listing of all the registered players and the games and gaming networks they use.
 
-If you want to learn more about a player, click on their avatar image to view their profile page.
+If you want to learn more about a specific player, click on their avatar image to view their profile page.
 
 <p style="text-align: center"><i>Search Page</i></p>
 ![](images/merged_search_page.png)
-You can also narrow your search by game using the "Search" page. Select a game from the dropdown menu and click "Search" to see a list of LFG players who play that specific game. Click on a player's card to view their profile page.
+You can also narrow your search by using the "Search" page. Select a game from the dropdown menu and click "Search" to see a list of LFG players who play that specific game. Click on a player's card to view their profile page.
 
 Click the "Logout" button at anytime and you will be returned to the landing page.
 
