@@ -1,6 +1,6 @@
-# Table of contents
+# Table of Contents
 
-* [About Looking for Game](#about-looking-for-game)
+* [About Looking For Game](#about-looking-for-game)
 * [Development history](#development-history)
   * [Milestone 2: Prime Features](#milestone-2-prime-features)
   * [Milestone 1: Mockup Development](#milestone-1-mockup-development)
