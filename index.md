@@ -25,27 +25,27 @@ The running web app is accessible at: [http://lookingforgame.meteorapp.com](http
 
 When you first arrive, you will be presented with the below landing page. Click on the "Login" button in the top-right corner and enter your UH credentials.
 ![](images/mock_up.png)
-<i style="text-align: center">Landing Page</i>
+<p style="text-align: center"><i>Landing Page</i></p>
 
 If you do not have an existing LFG account, you will be redirected to the below profile creation page. The only required field is your handle, though you can also add your name, profile picture, favorite game(s), gaming network usernames, and a brief bio about yourself.
 ![](images/edit_profile.png)
-<i style="text-align: center">Edit Profile Page</i>
+<p style="text-align: center"><i>Edit Profile Page</i></p>
 
 When you click "Submit", your new profile will be saved to the LFG database and you will be redirected to your profile page, where you can see the information that you just inputted.
 ![](images/merged_pub_profile.png)
-<i style="text-align: center">Profile Page</i>
+<p style="text-align: center"><i>Profile Page</i></p>
 
 If at anytime you want to change your profile page information, just click the "Edit Profile" button located to the in the top-right of the menu bar.
 
 To see a quick overview of players currently online and the games they play, click on "LFG" logo in the top-left of the menu bar.
 ![](images/merged_home_page.png)
-<i style="text-align: center">Home Page</i>
+<p style="text-align: center"><i>Home Page</i></p>
 
 If you want to learn more about a player, click on their avatar image to view their profile page.
 
 You can also narrow your search by game using the "Search" page. Select a game from the dropdown menu and click "Search" to see a list of LFG players who play that specific game. Click on a player's card to view their profile page.
 ![](images/merged_search_page.png)
-<i style="text-align: center">Search Page</i>
+<p style="text-align: center"><i>Search Page</i></p>
 
 Click the "Logout" button at anytime and you will be returned to the landing page.
 
@@ -54,20 +54,15 @@ Click the "Logout" button at anytime and you will be returned to the landing pag
 
 A select handful of university students have provided some helpful opinions about LFG.
 
-> This looks helpful. I like the integrated calendar. It would make it easy to organize and advertise events.
-P.K.
+> This looks helpful. I like the integrated calendar. It would make it easy to organize and advertise events. - P.K.
 
-"I like the idea, but I'm not sure that some players would want to broadcast their usernames like this. Security is an issue."
-H.S.
+> I like the idea, but I'm not sure that some players would want to broadcast their usernames like this. Security is an issue. - H.S.
 
-"I wish there was a view of the games themselves, with the subscribed players. Other than that, it looks pretty good."
-D.D.
+> I wish there was a view of the games themselves, with the subscribed players. Other than that, it looks pretty good. - D.D.
 
-"It looks like something I would use. Especially if I just arrived on campus and was interested in playing what is popular."
-J.O.
+> It looks like something I would use. Especially if I just arrived on campus and was interested in playing what is popular. - J.O.
 
-"I like the design. Do you guys like Blizzard? I can't tell..."
-N.F.
+> I like the design. Do you guys like Blizzard? I can't tell... - N.F.
 
 
 # Developer Guide
