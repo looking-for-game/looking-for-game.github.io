@@ -63,7 +63,7 @@ Profile Page:
 
   ## Concept Presentation
 
-Prior to the construction of the webapp prototype, this presentation goes over the concept and targe demographics of the program.
+Prior to the construction of the web app prototype, this presentation goes over the concept and target demographics of the program.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSKi10yvED8cOa2-O6Lccu5sxOjQ91kx9DD-xnKXfSDpu8kDQufYiQTcURvDidz9Yx50HNEpwEdO46d/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -78,7 +78,7 @@ After creating a profile, you will be listed on the public directory page.
 
 # Reviews and Feedback
 
-A select handful of university students have provided some helpful opinons about LFG.
+A select handful of university students have provided some helpful opinions about LFG.
 
 "This looks helpful. I like the integrated calendar. It would make it easy to organize and advertise events."
 P.K.
