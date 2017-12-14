@@ -260,6 +260,12 @@ The development process for Looking For Game conformed to [Issue Driven Project 
 
 The following sections document the development history of Looking For Game.
 
+## Concept Presentation
+
+Prior to the construction of the webapp prototype, this presentation goes over the concept and targe demographics of the program.
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSKi10yvED8cOa2-O6Lccu5sxOjQ91kx9DD-xnKXfSDpu8kDQufYiQTcURvDidz9Yx50HNEpwEdO46d/embed?start=true&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ## Milestone 1: Mockup development
 
 This milestone started on November 9, 2017 to present.
