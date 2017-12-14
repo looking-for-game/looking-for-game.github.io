@@ -16,7 +16,13 @@ The development process for Looking For Game conformed to [Issue Driven Project 
 
 The following sections document the development history of Looking For Game.
 
+
+Here is a link to our current deployment: [http://lookingforgame.meteorapp.com](http://lookingforgame.meteorapp.com)
+
+
 ## Milestone 2: Prime Features
+
+Milestone 2 goals viewable [here](https://github.com/looking-for-game/looking-for-game/projects/2).
 
 
 
@@ -30,9 +36,7 @@ Here is a link to our current deployment: [http://lookingforgame.meteorapp.com](
 
 Issues completed for Milestone 1 viewable [here](https://github.com/looking-for-game/looking-for-game/projects/1).
 
-Milestone 2 goals viewable [here](https://github.com/looking-for-game/looking-for-game/projects/2).
-
-Below are screenshots of our current progress.
+Below are screenshots of our progress through M1.
 
 Landing Page:
 ![](images/mock_up.png)
