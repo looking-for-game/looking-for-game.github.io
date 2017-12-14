@@ -78,12 +78,12 @@ After creating a profile, you will be listed on the public directory page.
 
 # Reviews and Feedback
 
-A select handful of university students have provided some unbiased opinons about LFG.
+A select handful of university students have provided some helpful opinons about LFG.
 
-""
+"This looks helpful. I like the integrated calendar. It would make it easy to organize and advertise events."
 P.K.
 
-""
+"I like the idea, but I'm not sure that some players would want to broadcast their usernames like this."
 H.S.
 
 "I wish there was a view of the games themselves, with the subscribed players. Other than that, it looks pretty good."
