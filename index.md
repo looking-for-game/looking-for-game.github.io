@@ -25,27 +25,27 @@ The running web app is accessible at: [http://lookingforgame.meteorapp.com](http
 
 When you first arrive, you will be presented with the below landing page. Click on the "Login" button in the top-right corner and enter your UH credentials.
 ![](images/mock_up.png)
-<i align="center">Landing Page</i>
+<i style="text-align: center">Landing Page</i>
 
 If you do not have an existing LFG account, you will be redirected to the below profile creation page. The only required field is your handle, though you can also add your name, profile picture, favorite game(s), gaming network usernames, and a brief bio about yourself.
 ![](images/edit_profile.png)
-*Edit Profile Page*
+<i style="text-align: center">Edit Profile Page</i>
 
 When you click "Submit", your new profile will be saved to the LFG database and you will be redirected to your profile page, where you can see the information that you just inputted.
 ![](images/merged_pub_profile.png)
-"Profile Page"
+<i style="text-align: center">Profile Page</i>
 
 If at anytime you want to change your profile page information, just click the "Edit Profile" button located to the in the top-right of the menu bar.
 
 To see a quick overview of players currently online and the games they play, click on "LFG" logo in the top-left of the menu bar.
 ![](images/merged_home_page.png)
-*Home Page*
+<i style="text-align: center">Home Page</i>
 
 If you want to learn more about a player, click on their avatar image to view their profile page.
 
 You can also narrow your search by game using the "Search" page. Select a game from the dropdown menu and click "Search" to see a list of LFG players who play that specific game. Click on a player's card to view their profile page.
 ![](images/merged_search_page.png)
-*Search Page*
+<i style="text-align: center">Search Page</i>
 
 Click the "Logout" button at anytime and you will be returned to the landing page.
 
