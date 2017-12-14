@@ -54,7 +54,7 @@ Click the "Logout" button at anytime and you will be returned to the landing pag
 
 A select handful of university students have provided some helpful opinions about LFG.
 
-"This looks helpful. I like the integrated calendar. It would make it easy to organize and advertise events."
+> This looks helpful. I like the integrated calendar. It would make it easy to organize and advertise events.
 P.K.
 
 "I like the idea, but I'm not sure that some players would want to broadcast their usernames like this. Security is an issue."
