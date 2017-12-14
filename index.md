@@ -83,16 +83,16 @@ A select handful of university students have provided some helpful opinons about
 "This looks helpful. I like the integrated calendar. It would make it easy to organize and advertise events."
 P.K.
 
-"I like the idea, but I'm not sure that some players would want to broadcast their usernames like this."
+"I like the idea, but I'm not sure that some players would want to broadcast their usernames like this. Security is an issue."
 H.S.
 
 "I wish there was a view of the games themselves, with the subscribed players. Other than that, it looks pretty good."
 D.D.
 
-"It looks like something I would use. Especially if I just arrived on campus."
+"It looks like something I would use. Especially if I just arrived on campus and was interested in playing what is popular."
 J.O.
 
-""
+"I like the design. Do you guys like Blizzard? I can't tell..."
 N.F.
 
 
