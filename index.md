@@ -1,7 +1,7 @@
 # Table of Contents
 
-* [About Looking For Game](#about-looking-for-game)
-* [Development history](#development-history)
+* [About](#about)
+* [Development History](#development-history)
   * [Milestone 2: Prime Features](#milestone-2-prime-features)
   * [Milestone 1: Mockup Development](#milestone-1-mockup-development)
   * [Concept Presentation](#milestone-1-mockup-development)
@@ -12,13 +12,11 @@
   * [Quality Assurance](#quality-assurance)
 
 
-# About Looking For Game
+# About
 
-Looking For Game is a Meteor application providing game profiles for the University of Hawaii community. When you come to the site, you are greeted by the following landing page:
+Looking For Game is a Meteor application providing game profiles for the University of Hawaii community. Anyone with a UH account can login to Looking For Game by clicking on the login button, where a UH CAS authentication screen appears and requests your UH account and password. Once authenticated, you can create a profile that provides a biographical statement and list of favorite games, plus links to selected game networking sites including Battle.net, Steam, and Xbox Live.
 
-Anyone with a UH account can login to Looking For Game by clicking on the login button. The UH CAS authentication screen then appears and requests your UH account and password. Once authenticated, you can create a profile that provides a biographical statement and list of interests, plus links to selected social media sites (GitHub, FaceBook, Instagram):
-
-After creating a profile, you will be listed on the public directory page.
+After creating a new player profile, you will be redirected to the Home page where you can see current online players and which games they play.
 
 
 # Development History
