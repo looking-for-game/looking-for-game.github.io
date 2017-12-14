@@ -1,24 +1,81 @@
 # Table of contents
 
+
+* [Development history](#development-history)
+  * [Milestone 2: Prime Features](#milestone-2-prime-features)
+  * [Milestone 1: Mockup Development](#milestone-1-mockup-development)
+  * [Concept Presentation](#milestone-1-mockup-development)
 * [About Looking for Game](#about-looking-for-game)
+* [Reviews and Feedback](#reviews-and-feedback)
 * [Installation](#installation)
 * [Application design](#application-design)
-* [Development history](#development-history)
-  * [Milestone 1: Mockup development](#milestone-1-mockup-development)
+  
+# Development History
+
+The development process for Looking For Game conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f16/modules/project-management/) practices. In a nutshell, development consists of a sequence of Milestones. Milestones consist of issues corresponding to 2-3 day tasks. GitHub projects are used to manage the processing of tasks during a milestone.  
+
+The following sections document the development history of Looking For Game.
+
+## Milestone 2: Prime Features
+
+
+
+## Milestone 1: Mockup Development
+
+This milestone started on November 9, 2017 to present.
+
+The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system. To simplify things, the mockup was developed as a Meteor app. This meant that each page was a template and that FlowRouter was used to implement routing to the pages.
+
+Here is a link to our current deployment: [http://lookingforgame.meteorapp.com](http://lookingforgame.meteorapp.com)
+
+Issues completed for Milestone 1 viewable [here](https://github.com/looking-for-game/looking-for-game/projects/1).
+
+Milestone 2 goals viewable [here](https://github.com/looking-for-game/looking-for-game/projects/2).
+
+Below are screenshots of our current progress.
+
+Landing Page:
+![](images/mock_up.png)
+
+Search Page:
+![](images/mock_up2.png)
+
+Profile Page:
+![](images/mock_up3.png)
+
+  ## Concept Presentation
+
+Prior to the construction of the webapp prototype, this presentation goes over the concept and targe demographics of the program.
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSKi10yvED8cOa2-O6Lccu5sxOjQ91kx9DD-xnKXfSDpu8kDQufYiQTcURvDidz9Yx50HNEpwEdO46d/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 # About Looking For Game
 
 Looking For Game is a Meteor application providing game profiles for the University of Hawaii community. When you come to the site, you are greeted by the following landing page:
 
-![](images/mock_up.jpg)
-
 Anyone with a UH account can login to Looking For Game by clicking on the login button. The UH CAS authentication screen then appears and requests your UH account and password. Once authenticated, you can create a profile that provides a biographical statement and list of interests, plus links to selected social media sites (GitHub, FaceBook, Instagram):
 
-![](images/mock_up3.jpg)
-  
-After creating a profile, you will be listed on the public directory page:
+After creating a profile, you will be listed on the public directory page.
 
-![](images/mock_up2.jpg)
+
+# Reviews and Feedback
+
+A select handful of university students have provided some unbiased opinons about LFG.
+
+""
+P.K.
+
+
+H.S.
+
+
+D.D.
+
+"It looks like something I would use. Especially if I just arrived on campus."
+J.O.
+
+""
+N.F.
 
 
 # Installation
@@ -138,7 +195,7 @@ This system adopts the following naming conventions:
 
 The Looking For Game data model is implemented by two Javascript classes: [ProfileCollection](https://github.com/looking-for-game/looking-for-game/blob/master/app/imports/api/profile/ProfileCollection.js) and [InterestCollection](https://github.com/looking-for-game/looking-for-game/blob/master/app/imports/api/interest/InterestCollection.js). Both of these classes encapsulate a MongoDB collection with the same name and export a single variable (Profiles and Interests)that provides access to that collection. 
 
-Any part of the system that manipulates the BowFolios data model imports the Profiles or Interests variable, and invokes methods of that class to get or set data.
+Any part of the system that manipulates the Looking For Game data model imports the Profiles or Interests variable, and invokes methods of that class to get or set data.
 
 There are many common operations on MongoDB collections. To simplify the implementation, the ProfileCollection and InterestCollection classes inherit from the [BaseCollection](https://github.com/looking-for-game/looking-for-game/blob/master/app/imports/api/base/BaseCollection.js) class.
 
@@ -160,7 +217,7 @@ For display and navigation among its four pages, the application uses [Flow Rout
 
 Routing is defined in [imports/startup/client/router.js](https://github.com/ics-software-engineering/meteor-application-template/blob/master/blob/master/app/imports/startup/client/router.js).
 
-BowFolios defines the following routes:
+Looking For Game defines the following routes:
 
   * The `/` route goes to the public landing page.
   * The `/directory` route goes to the public directory page.
@@ -174,7 +231,7 @@ For authentication, the application uses the University of Hawaii CAS test serve
 
 When the application is run, the CAS configuration information must be present in a configuration file such as  [config/settings.development.json](https://github.com/ics-software-engineering/meteor-application-template/blob/master/config/settings.development.json). 
 
-Anyone with a UH account can login and use BowFolio to create a portfolio.  A profile document is created for them if none already exists for that username.
+Anyone with a UH account can login and use Looking For Game to create a portfolio.  A profile document is created for them if none already exists for that username.
 
 ## Authorization
 
@@ -192,13 +249,13 @@ The [config](https://github.com/looking-for-game/looking-for-game/tree/master/co
 
 The [.gitignore](https://github.com/looking-for-game/looking-for-game/blob/master/.gitignore) file prevents a file named settings.production.json from being committed to the repository. So, if you are deploying the application, you can put settings in a file named settings.production.json and it will not be committed.
 
-BowFolios checks on startup to see if it has an empty database in [initialize-database.js](https://github.com/looking-for-game/looking-for-game/blob/master/app/imports/startup/server/initialize-database.js), and if so, loads the file specified in the configuration file, such as [settings.development.json](https://github.com/looking-for-game/looking-for-game/tree/master/config/settings.development.json).  For development purposes, a sample initialization for this database is in [initial-collection-data.json](https://github.com/looking-for-game/looking-for-game/blob/master/app/private/database/initial-collection-data.json).
+Looking For Game checks on startup to see if it has an empty database in [initialize-database.js](https://github.com/looking-for-game/looking-for-game/blob/master/app/imports/startup/server/initialize-database.js), and if so, loads the file specified in the configuration file, such as [settings.development.json](https://github.com/looking-for-game/looking-for-game/tree/master/config/settings.development.json).  For development purposes, a sample initialization for this database is in [initial-collection-data.json](https://github.com/looking-for-game/looking-for-game/blob/master/app/private/database/initial-collection-data.json).
 
 ## Quality Assurance
 
 ### ESLint
 
-BowFolios includes a [.eslintrc](https://github.com/looking-for-game/looking-for-game/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+Looking For Game includes a [.eslintrc](https://github.com/looking-for-game/looking-for-game/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
 
 ```
 meteor npm run lint
@@ -257,17 +314,4 @@ I20171109-11:13:56.168(-10)? Load the app in a browser to run client tests, or s
 
 ### JSDoc
 
-BowFolios supports documentation generation with [JSDoc](http://usejsdoc.org/). The package.json file defines a script called jsdoc that runs JSDoc over the source files and outputs html to the ../../looking-for-game.github.io/jsdoc directory.  When committed, the index.html file providing an overview of all the documentation generate at that point in time is available at [http://looking-for-game.github.io/jsdocs](https://bowfolios.github.io/jsdocs/). 
-
-
-# Development History
-
-The development process for BowFolios conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f16/modules/project-management/) practices. In a nutshell, development consists of a sequence of Milestones. Milestones consist of issues corresponding to 2-3 day tasks. GitHub projects are used to manage the processing of tasks during a milestone.  
-
-The following sections document the development history of BowFolios.
-
-## Milestone 1: Mockup development
-
-This milestone started on November 9, 2017 to present.
-
-The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system. To simplify things, the mockup was developed as a Meteor app. This meant that each page was a template and that FlowRouter was used to implement routing to the pages. 
+Looking For Game supports documentation generation with [JSDoc](http://usejsdoc.org/). The package.json file defines a script called jsdoc that runs JSDoc over the source files and outputs html to the ../../looking-for-game.github.io/jsdoc directory.  When committed, the index.html file providing an overview of all the documentation generate at that point in time is available at [http://looking-for-game.github.io/jsdocs](https://looking-for-game.github.io/jsdocs/). 
