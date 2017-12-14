@@ -21,7 +21,28 @@ Looking For Game (LFG) is a Meteor web application designed to help college stud
 
 # User Guide
 
-Link to running web app: [http://lookingforgame.meteorapp.com](http://lookingforgame.meteorapp.com)
+The running web app is accessible at: [http://lookingforgame.meteorapp.com](http://lookingforgame.meteorapp.com)
+
+When you first arrive, you will be presented with the below landing page. Click on the "Login" button in the top-right corner and enter your UH credentials.
+![](images/mock_up.png)
+*Landing Page*
+
+If you do not have an existing LFG account, you will be redirected to this profile creation page. The only required field is your handle, though you can also add your name, profile picture, favorite game(s), gaming network usernames, and a brief bio about yourself.
+![](images/edit_profile.png)
+*Edit Profile Page*
+
+When you click "Submit", your new profile will be saved to the LFG database and you will be redirected to the home page.
+![](images/merged_home_page.png)
+*Home Page*
+
+
+
+![](images/merged_search_page.png)
+*Search Page*
+
+![](images/merged_pub_profile.png)
+"Profile Page"
+
 
 
 # Community Reviews
