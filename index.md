@@ -59,27 +59,27 @@ A select handful of university students have provided some helpful opinions abou
 
 <blockquote>
  This looks helpful. I like the integrated calendar. It would make it easy to organize and advertise events.
- <footer>P.K.</footer>
+ <footer>- P.K.</footer>
 </blockquote>
 
 <blockquote>
  I like the idea, but I'm not sure that some players would want to broadcast their usernames like this. Security is an issue.
- <footer>H.S.</footer>
+ <footer>- H.S.</footer>
 </blockquote>
 
 <blockquote>
  I wish there was a view of the games themselves, with the subscribed players. Other than that, it looks pretty good.
- <footer>D.D.</footer>
+ <footer>- D.D.</footer>
 </blockquote>
 
 <blockquote>
  It looks like something I would use. Especially if I just arrived on campus and was interested in playing what is popular.
- <footer>J.O.</footer>
+ <footer>- J.O.</footer>
 </blockquote>
 
 <blockquote>
  I like the design. Do you guys like Blizzard? I can't tell...
- <footer>N.F.</footer>
+ <footer>- N.F.</footer>
 </blockquote>
 
 
