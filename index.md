@@ -58,27 +58,27 @@ Click the "Logout" button at anytime and you will be returned to the landing pag
 A select handful of university students have provided some helpful opinions about LFG.
 
 <blockquote>
- This looks helpful. I like the integrated calendar. It would make it easy to organize and advertise events.
+ <p>This looks helpful. I like the integrated calendar. It would make it easy to organize and advertise events.</p>
  <footer>- P.K.</footer>
 </blockquote>
 
 <blockquote>
- I like the idea, but I'm not sure that some players would want to broadcast their usernames like this. Security is an issue.
+ <p>I like the idea, but I'm not sure that some players would want to broadcast their usernames like this. Security is an issue.</p>
  <footer>- H.S.</footer>
 </blockquote>
 
 <blockquote>
- I wish there was a view of the games themselves, with the subscribed players. Other than that, it looks pretty good.
+ <p>I wish there was a view of the games themselves, with the subscribed players. Other than that, it looks pretty good.</p>
  <footer>- D.D.</footer>
 </blockquote>
 
 <blockquote>
- It looks like something I would use. Especially if I just arrived on campus and was interested in playing what is popular.
+ <p>It looks like something I would use. Especially if I just arrived on campus and was interested in playing what is popular.</p>
  <footer>- J.O.</footer>
 </blockquote>
 
 <blockquote>
- I like the design. Do you guys like Blizzard? I can't tell...
+ <p>I like the design. Do you guys like Blizzard? I can't tell...</p>
  <footer>- N.F.</footer>
 </blockquote>
 
